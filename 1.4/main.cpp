@@ -3,6 +3,13 @@
 
 using namespace std;
 
+/*
+	주어진 문자열이 회문의 순열인지 아닌지 확인하는 함수를 작성하라.
+	회문이란 앞으로 읽으나 뒤로 읽으나 같은 단어 혹은 구절을 의미하며,
+	순열이란 문자열을 재배치하는 것을 뜻한다. 회문이 꼭 사전에 등장하는
+	단어일 필요는 없다.
+*/
+
 bool IsPailndromeArray(const string& s)
 {
 	unordered_map<char, unsigned short> char_counter;
